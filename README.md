@@ -1,5 +1,3 @@
 # codecademy
 
-This is my personal solution to "Scrable" Project in Codecademy within Learn Python 3 Course.
-
-I upladed it in here just to have it stored for learning purposes.
+This repository is meant to be a place to keep the most interesting exercises and small projects during the different courses taken in Codecademy.
