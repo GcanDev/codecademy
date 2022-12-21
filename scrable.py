@@ -10,9 +10,11 @@ for letter in letters:
   lower.append(letter.lower())
 letters += lower
 points += points
+
 #Comprehension to convert 2 lists into a dictionary using zip 
 letter_to_points = {letter:point for letter, point in zip(letters, points)}
 
+#Adding score for blanks
 letter_to_points[""]=0
 
 #Function that takes in a word and return how many points it's worth
@@ -21,6 +23,7 @@ def score_word(word):
   for letter in word:
    point_total += letter_to_points.get(letter,0)
   return point_total
+
 #Function that updates the total points of all players
 def update_point_totals(player_to_words,player_to_points):
   for player in player_to_words.items():
